@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="en">
 <head>
-<base href="<?php echo base_url();?>">
+  <base href="<?php echo base_url();?>">
 	<meta charset="UTF-8">
-	<title>Heera HTML5 Template by Jewel Theme</title>
+	<title>BIOCLEAN</title>
 	<meta name="description" content="Heera HTML5 Template by Jewel Theme" >
 	<meta name="author" content="Jewel Theme">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -42,7 +42,22 @@
   <script src="js/docs.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <script src="js/ie10-viewport-bug-workaround.js"></script>
+<script>
 
+ $(document).ready(function() {
+
+  /* -------- One page Navigation ----------*/
+  $('#main-menu #menu').onePageNav({
+    currentClass: 'active',
+    changeHash: false,
+    scrollSpeed: 1500,
+    scrollThreshold: 0.5,
+    scrollOffset: 95,
+    filter: ':not(.sub-menu a, .not-in-home)',
+    easing: 'swing'
+  });
+  }); 
+</script>
 
 	
 	<!--[if IE]>
@@ -125,12 +140,22 @@
               </div>
               <nav id="menu" class="menu collapse navbar-collapse">
                <ul id="headernavigation" class="menu-list nav navbar-nav">
-                <li class="active"><a href="#page-top">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Projects</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#latest-post">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li class="active"><a href="#page-top">Inicio</a></li>
+                <li><a href="#Empresa">Empresa</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Productos <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Hogar</a></li>
+                    <li><a href="#">Cuerpo</a></li>
+                    <li><a href="#">Auto</a></li>
+                    <li><a href="#">Instituciones</a></li>
+                    <li><a href="#">Artículos de Limpieza</a></li>
+                  </ul>
+                </li>
+                <li><a href="#Sucursales">Sucursales</a></li>
+                <li><a href="#Contact">Contacto</a></li>
               </ul><!-- /.menu-list -->
             </nav><!-- /.menu-list -->
           </div>
@@ -194,9 +219,194 @@
             </a>
     </div>
   </div>
-
   </section><!-- /#main-slider -->
+  <section id="Empresa" class="about">
+    
+      <div class="about-area">
+              <div class="title-area text-center">
+                <h2 class="about-title">BIOCLEAN</h2>
+              </div><!-- /.title-area -->
+                <div class="about-items">
+                    <div class="col-sm-3">
+                       
+                    </div>
+                 <div class="col-sm-6">
+                     <div class="item">
+                      <div class="item-top">
+                       <h3 class="item-title">CONCEPTO</h3>
+                     </div><!-- /.item-top -->
+                     <p class="item-description">
+                       En BioClean encontrará las mejores líneas de productos de limpieza, jarciería y todos sus derivados, para su empleo en el hogar, la oficina o el negocio.
+
+                      Todas nuestras líneas de productos químicos de limpieza son elaboradas con ingredientes especiales y certificados por laboratorio, lo que nos permite obtener los mejores resultados para la higiene de sus espacios interiores o exteriores. Nuestros productos son capaces de eliminar bacterias generadas por la humedad y suciedad en todo tipo de artículos, muebles y superficies sin dañarlas.
+
+                      Somos una empresa innovadora en el mercado colimense, por lo que ponemos a su disposición excelentes precios en todos sus pedidos de productos de limpieza al mayoreo y menudeo.
+
+                      Contamos con Sucursal en Colima, Colima, para brindar un mejor servicio a todos nuestros clientes.
+
+                      Comuníquese con nuestros representantes a través de los teléfonos publicados en este espacio para recibir más información.
+
+                      ¡No busque más y compruebe que en BioClean somos su mejor opción!
+                     </p>
+
+                   </div><!-- /.item -->
+                </div>
+                <div class="col-sm-3">
+                       
+                </div>
+
+            </div><!-- /.about-items -->
+      </div><!-- /.about-area -->
+    
+
+    
+  </section>
   <br>
+  <section id="Catalogo">
+    
+  </section>
+  <br><br><br><br>
+
+  
+  <section id="Sucursales">
+      <div class="container"> 
+          <div class="row">
+              <!-- CAMINO REAL -->
+                <div class="col-md-12">
+                    <div class="container">
+                        <div class="row flat">
+                          <div class="row">
+                                <!-- Map Column -->
+                                <div class="col-md-8">
+                                    <div class="heading text-center"> 
+                                     <h2>Sucursal Camino Real</h2>
+                                    </div>
+                                    <!-- Embedded Google Map -->
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.848171258944!2d-103.71273758501596!3d19.245447651625252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84255aa3934fe889%3A0xcdeaa268dfc53c1a!2sBlvrd+Camino+Real+93%2C+Jardines+de+las+Lomas%2C+28014+Colima%2C+Col.!5e0!3m2!1ses-419!2smx!4v1450284279497" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                </div>
+                                <!-- Contact Details Column -->
+                                <br>
+                                <br>
+                                <div class="col-md-4">
+                                    <h3>Direccion </h3>
+                                    <p>
+                                        Boulevard Camino Real 93<br>Jardines de las Lomas, 28014 Colima, Col<br>
+                                    </p>
+                                    <p><i class="fa fa-phone"></i> 
+                                        <abbr title="Phone">P</abbr>: (312)119-65-22</p>
+                                    <p><i class="fa fa-envelope-o"></i> 
+                                        <abbr title="Email">E</abbr>: <a href="jags.uag@hotmail.com">jags.uag@hotmail.com</a>
+                                    </p>
+                                    <p><i class="fa fa-envelope-o"></i> 
+                                        <abbr title="Email">E</abbr>: <a href="nolazco0410@yahoo.com.mx">nolazco0410@yahoo.com.mx</a>
+                                    </p>
+                                    
+                                    <p><i class="fa fa-clock-o"></i> 
+                                        <abbr title="Hours">H</abbr>: Viernes de 17:00 a 22:00 </p>
+                                    <p><i class="fa fa-clock-o"></i> 
+                                        <abbr title="Hours">H</abbr>: Sábado de 8:00 a 13:00</p>
+                                    <ul class="list-unstyled list-inline list-social-icons">
+                                        <li>
+                                            <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- BENITO JUAREZ -->
+                <div class="col-md-12">
+                    <div class="container">
+                        <div class="row flat">
+                          <div class="row">
+                                <!-- Map Column -->
+                                <div class="col-md-8">
+                                    <div class="heading text-center"> 
+                                     <h2>Sucursal Benito Juárez<h2>
+                                    </div>
+                                    <!-- Embedded Google Map -->
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.848171258944!2d-103.71273758501596!3d19.245447651625252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84255aa3934fe889%3A0xcdeaa268dfc53c1a!2sBlvrd+Camino+Real+93%2C+Jardines+de+las+Lomas%2C+28014+Colima%2C+Col.!5e0!3m2!1ses-419!2smx!4v1450284279497" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                </div>
+                                <!-- Contact Details Column -->
+                                <br>
+                                <br>
+                                <div class="col-md-4">
+                                    <h3>Direccion </h3>
+                                    <p>
+                                        Boulevard Camino Real 93<br>Jardines de las Lomas, 28014 Colima, Col<br>
+                                    </p>
+                                    <p><i class="fa fa-phone"></i> 
+                                        <abbr title="Phone">P</abbr>: (312)119-65-22</p>
+                                    <p><i class="fa fa-envelope-o"></i> 
+                                        <abbr title="Email">E</abbr>: <a href="jags.uag@hotmail.com">jags.uag@hotmail.com</a>
+                                    </p>
+                                    <p><i class="fa fa-envelope-o"></i> 
+                                        <abbr title="Email">E</abbr>: <a href="nolazco0410@yahoo.com.mx">nolazco0410@yahoo.com.mx</a>
+                                    </p>
+                                    
+                                    <p><i class="fa fa-clock-o"></i> 
+                                        <abbr title="Hours">H</abbr>: Viernes de 17:00 a 22:00 </p>
+                                    <p><i class="fa fa-clock-o"></i> 
+                                        <abbr title="Hours">H</abbr>: Sábado de 8:00 a 13:00</p>
+                                    <ul class="list-unstyled list-inline list-social-icons">
+                                        <li>
+                                            <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                          </div>
+                        </div>
+                    </div>
+                </div> 
+          </div>
+      </div>
+        
+  </section>
+  <br>
+
+  <section id="Contact" class="contact">
+  <div class="about-area">
+      <div id="message-details" class="message-details">
+      <div class="container">
+        <form action="email.php" method="post" id="myForm" class="message-form">
+          <div class="row">
+            <div class="col-sm-6">
+              <input id="author" class="form-control" name="author" type="text" value="" size="30" aria-required="true" placeholder="Name*" title="Name" required>
+              <input id="email" class="form-control" name="email" type="email" value="" size="30" aria-required="true" placeholder="Email*" title="Email"  required>
+              <input id="subject" class="form-control" name="subject" type="subject" value="" size="30" aria-required="true" placeholder="Subject*" title="Subject"  required>
+            </div>
+            <div class="col-sm-6">
+              <textarea id="message" class="form-control" name="message" cols="45" rows="3" aria-required="true" placeholder="Message" title="Message"  required></textarea>
+              <button name="submit" class="btn btn-lg full-width" type="submit" id="submit">Submit</button>
+            </div>
+          </div><!-- /.row -->
+        </form><!-- /#commentform -->
+      </div><!-- /.container -->
+    </div><!-- /.message-details -->
+    </div>
+
+  </section>
+  <br><br><br>
 
 
 <footer>
@@ -236,11 +446,12 @@
   <div id="footer-bottom" class="footer-bottom text-center">
     <div class="container">
       <div id="copyright" class="copyright">
-        &copy; <a href="http://demos.jeweltheme.com/heera">Heera</a>  2015 - Designed &amp; Developed by <a href="http://jeweltheme.com">Jewel Theme</a>
+        <a href="http://syscaja.com/">Copyright © 2015 HITEC.</a>  2015 - Designed &amp; Developed by <a href="http://jeweltheme.com">Jewel Theme</a>
       </div><!-- /#copyright -->
     </div>
   </div><!-- /#footer-bottom -->
 </footer>
+Copyright © 2015 HITEC. Todos los Derechos Reservados
 
 
 
@@ -249,7 +460,6 @@
     <i class="fa fa-chevron-up"></i>    
   </span>
 </div><!-- /#scroll-to-top -->
-
 
 
 </body>
