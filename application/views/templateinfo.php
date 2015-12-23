@@ -1,4 +1,4 @@
-<!doctype html>
+
 <html lang="en">
 <head>
   <base href="<?php echo base_url();?>">
@@ -25,24 +25,9 @@
 	<!-- Import Custom Responsive Styles -->
 	<link href="css/responsive.css" rel="stylesheet">
   <!-- Include modernizr-2.8.3.min.js -->
-  <script src="js/modernizr-2.8.3.min.js"></script>
-  <!-- Include jquery.min.js plugin -->
-  <script src="js/jquery-2.1.0.min.js"></script>
-  <!-- Include magnific-popup.min.js -->
-  <script src="js/jquery.magnific-popup.min.js"></script>
-   <!-- Gmap3.js For Static Maps -->
-  <script src="js/gmap3.js"></script>
-  <!-- Javascript Plugins  -->
-  <script src="js/plugins.js"></script>
-  <!-- Custom Functions  -->
-  <script src="js/functions.js"></script>
-  <script src="js/wow.min.js"></script>
-  <script type="text/javascript" src="js/jquery.ajaxchimp.min.js"></script>
- 
-  <script src="js/docs.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  <script src="js/ie10-viewport-bug-workaround.js"></script>
-<script>
+
+  <script src="js/jquery.js"></script>
+    <script>
 
  $(document).ready(function() {
 
@@ -58,6 +43,23 @@
   });
   }); 
 </script>
+  <script src="js/modernizr-2.8.3.min.js"></script>
+  
+  <!-- Include magnific-popup.min.js -->
+  <script src="js/jquery.magnific-popup.min.js"></script>
+   <!-- Gmap3.js For Static Maps -->
+  <script src="js/gmap3.js"></script>
+  <!-- Javascript Plugins  -->
+  <script src="js/plugins.js"></script>
+  <!-- Custom Functions  -->
+  <script src="js/functions.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/jquery.ajaxchimp.min.js"></script>
+ 
+  <script src="js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="js/ie10-viewport-bug-workaround.js"></script>
+
 
 	
 	<!--[if IE]>
@@ -143,17 +145,14 @@
                 <li class="active"><a href="#page-top">Inicio</a></li>
                 <li><a href="#Empresa">Empresa</a></li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    Productos <b class="caret"></b>
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Hogar</a></li>
-                    <li><a href="#">Cuerpo</a></li>
-                    <li><a href="#">Auto</a></li>
-                    <li><a href="#">Instituciones</a></li>
-                    <li><a href="#">Artículos de Limpieza</a></li>
-                  </ul>
-                </li>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li> 
+          </ul>
+        </li>
                 <li><a href="#Sucursales">Sucursales</a></li>
                 <li><a href="#Contact">Contacto</a></li>
               </ul><!-- /.menu-list -->
