@@ -359,10 +359,10 @@ h1,h2,h3,h4,h5,h6 {
 .about-items {
 	background: #f7f7f7;
 	display: inline-block;
-	padding-top: 90px;
+	padding-top: 42px;
 }
 .about-items .item {
-	padding-bottom: 60px;
+	padding-bottom: 5px;
 }
 .item-top {
 	border-top: 1px solid #d7dee0;

@@ -14,12 +14,34 @@ class Principal extends CI_Controller {
 
 	 public function index()
 	 {		
-	 	$this->load->view('templateinfo');
+	 	$this->load->view('header');
+	 	$this->load->view('slider');
+	 	$this->load->view('footer');
 	 }
 
+	 	 public function empresa()
+	 {		
+	 	$this->load->view('header');
+	 	$this->load->view('empresa');
+	 	$this->load->view('footer');
+	 }
+	 	 public function sucursales()
+	 {		
+	 	$this->load->view('header');
+	 	$this->load->view('sucursales');
+	 	$this->load->view('footer');
+	 }
+	 	 public function contacto()
+	 {		
+	 	$this->load->view('header');
+	 	$this->load->view('contacto');
+	 	$this->load->view('footer');
+	 }
 	 	 public function productosHogar()
 	 {		
-	 	$this->load->view('headerFooter');
+	 	$this->load->view('header');
+	 	$this->load->view('productosHogar');
+	 	$this->load->view('footer');
 	 }
 }
 
