@@ -145,12 +145,14 @@
                 <li class="active"><a href="#page-top">Inicio</a></li>
                 <li><a href="#Empresa">Empresa</a></li>
                 <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Catalogo de Productos
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Page 1-1</a></li>
-            <li><a href="#">Page 1-2</a></li>
-            <li><a href="#">Page 1-3</a></li> 
+            <li><a href="<?php echo site_url('principal/productosHogar');?>">Hogar</a></li>
+            <li><a href="#">Cuerpo</a></li>
+            <li><a href="#">Auto</a></li> 
+            <li><a href="#">Instituciones</a></li> 
+            <li><a href="#">Limpieza</a></li> 
           </ul>
         </li>
                 <li><a href="#Sucursales">Sucursales</a></li>

@@ -16,6 +16,11 @@ class Principal extends CI_Controller {
 	 {		
 	 	$this->load->view('templateinfo');
 	 }
+
+	 	 public function productosHogar()
+	 {		
+	 	$this->load->view('headerFooter');
+	 }
 }
 
 /* End of file welcome.php */
